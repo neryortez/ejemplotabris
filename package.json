@@ -1,6 +1,6 @@
 {
   "name": "tabris",
-  "version": "0.10",
+  "version": "0.1.0",
   "main": "src/app.js",
   "private": true,
   "scripts": {

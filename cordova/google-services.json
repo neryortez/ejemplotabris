@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1022121428624",
+    "firebase_url": "https://friendlychat-ca8b8.firebaseio.com",
+    "project_id": "friendlychat-ca8b8",
+    "storage_bucket": "friendlychat-ca8b8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1022121428624:android:cdacb1fdfcfdfb4a",
+        "android_client_info": {
+          "package_name": "com.neryortez.tabris"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1022121428624-ftfhmg7m1gu2hfkdt36g44srfnfqoav3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABkyKVA0eBEqWjWWhBlUnIBMHppBoQMCk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

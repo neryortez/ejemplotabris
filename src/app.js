@@ -1,16 +1,7 @@
-const {Button, TextView, ui} = require('tabris');
+var logginPage = require('./logginPage')
 
-let button = new Button({
-  centerX: 0, top: 100,
-  text: 'Show message'
-}).appendTo(ui.contentView);
+var navigationView = new tabris.NavigationView({
+  left: 0, top: 0, right: 0, bottom: 0, toolbarVisible: false
+}).appendTo(tabris.ui.contentView);
 
-let textView = new TextView({
-  centerX: 0, top: [button, 50],
-  font: '24px'
-}).appendTo(ui.contentView);
-
-button.on('select', () => {
-  if (textView.text)
-  textView.text = 'Tabris.js rocks!';
-});
+logginPage(navigationView);
